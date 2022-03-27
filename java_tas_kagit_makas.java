@@ -45,12 +45,12 @@ public class java_tas_kagit_makas {
 			// comp: 1 user: 3 -- bilgisayar kazandı
 			
 			
-			// comp: 2 user: 1 -- user kazandı
+			// comp: 2 user: 1 -- bilgisayar kazandı
 			// comp: 2 user: 2 -- berabere
 			// comp: 2 user: 3 -- user kazandı
 			
-			// comp: 3 user: 1 -- bilgisayar kazandı
-			// comp: 3 user: 2 -- user kazandı
+			// comp: 3 user: 1 -- user kazandı
+			// comp: 3 user: 2 -- bilgisayar kazandı
 			// comp: 3 user: 3 -- berabere
 			
 			
@@ -64,7 +64,7 @@ public class java_tas_kagit_makas {
 				System.out.println("Ben kazandım.");
 			}
 			if(comp == 2 && user == 1) {
-				System.out.println("Tebrikler siz kazandınız.");
+				System.out.println("Ben kazandım.");
 			}
 			if(comp == 2 && user == 2) {
 				System.out.println("Berabere kaldık.");
@@ -73,10 +73,10 @@ public class java_tas_kagit_makas {
 				System.out.println("Tebrikler siz kazandınız.");
 			}
 			if(comp == 3 && user == 1) {
-				System.out.println("Ben kazandım.");
+				System.out.println("Tebrikler siz kazandınız.");
 			}
 			if(comp == 3 && user == 2) {
-				System.out.println("Tebrikler siz kazandınız.");
+				System.out.println("Ben kazandım.");
 			}
 			if(comp == 3 && user == 3) {
 				System.out.println("Berabere kaldık.");
@@ -84,7 +84,7 @@ public class java_tas_kagit_makas {
 			
 			   // bilgisayarın tuttuğu sayıyı en son konsola bastırmak için:
 			
-			System.out.println("Benim tuttuğum sayı: "+comp);
+			System.out.println("Benim tuttuğum sayı ise: "+comp);
 		}
 
 	}
